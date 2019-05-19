@@ -9,6 +9,8 @@ fun todoTask0(): Nothing = TODO(
 
         Read README.md to learn how to work with this project and check your solutions.
 
+        COMPILE THIS WITH TERMINAL -- gradlew test --tests i_*Hello*
+
         Using 'documentation =' below the task description you can open the related part of the online documentation.
             Press 'Ctrl+Q'(Windows) or 'F1'(Mac OS) on 'doc0()' to call the "Quick Documentation" action;
             "See also" section gives you a link.
@@ -24,6 +26,4 @@ fun todoTask0(): Nothing = TODO(
     references = { task0(); "OK" }
 )
 
-fun task0(): String {
-    return todoTask0()
-}
+fun task0() = "OK"
